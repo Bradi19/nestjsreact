@@ -1,10 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AppComponent } from './app.component';
-import { StartComponent } from './start/start.component';
+import { MainComponent } from './main/main.component';
+import { ContentComponent } from './content/content.component';
+import { LoginComponent } from './login/login.component';
+import { PageNotFoundComponentComponent } from './page-not-found-component/page-not-found-component.component';
+import { AuthsGuard } from './auths.guard';
 const routes: Routes = [
-  { path: '', component: StartComponent},
-  { path: 'start', component: AppComponent},
+  { path: '', component: MainComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'content', component: ContentComponent, canActivate: [AuthsGuard]},
+  { path: '**', component: PageNotFoundComponentComponent },
 ];
 
 @NgModule({
