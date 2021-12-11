@@ -1,0 +1,9 @@
+{
+    "home" : {
+        "main":"Glavnaja"
+    },
+    "lang":{
+        "ru":"rusian",
+        "uk":"ukraine"
+    }
+}

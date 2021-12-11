@@ -1,2 +1,4 @@
 <p>login works!</p>
-<h1 i18n>Angular logo</h1>
+<h1 i18n>{{ 'home.main' | translate }}</h1>
+<button (click)='translate.use("ru")'>{{ 'lang.ru' | translate }}</button>
+<button (click)="translate.use('uk')">{{ 'lang.uk' | translate }}</button>
