@@ -1,9 +1,28 @@
 {
-    "home" : {
+  "siteName": "Аукцион",
+
+  "home" : {
         "main":"Glavnaja"
     },
     "lang":{
         "ru":"rusian",
         "uk":"ukraine"
+    },
+  "footer": {
+    "first": {
+      "title": "Компания"
+    },
+    "second": {
+      "title": "Добавление"
+    },
+    "three": {
+      "title": "Новости"
+    },
+    "fourth": {
+      "title": "Социалки"
+    },
+    "five": {
+      "title": "Партнёры"
     }
+  }
 }
