@@ -16,12 +16,6 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
-      "i18n": {
-      "sourceLocale": "ru-RU",
-      "locales": {
-        "ru": "src/locale/messages.ru.xlf"
-      }
-    },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -37,6 +31,7 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "src/styles.scss",
               
               "./node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -46,6 +41,14 @@
 
             ]
 
+=======
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.scss"
+            ],
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+>>>>>>> 4a87a0ea0fa24c8987fab25c386a39f2a483fc15
           },
           "configurations": {
             "production": {

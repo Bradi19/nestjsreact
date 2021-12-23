@@ -24,6 +24,7 @@
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
     "@nestjs/platform-express": "^8.0.0",
+<<<<<<< HEAD
     "@nestjs/swagger": "^5.1.5",
     "@nestjs/typeorm": "^8.0.2",
     "mysql": "^2.18.1",
@@ -34,6 +35,14 @@
     "sequelize": "^6.12.0",
     "sequelize-typescript": "^2.1.1",
     "swagger-ui-express": "^4.3.0",
+=======
+    "@nestjs/typeorm": "^8.0.2",
+    "mysql": "^2.18.1",
+    "pg": "^8.7.1",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "rxjs": "^7.2.0",
+>>>>>>> 4a87a0ea0fa24c8987fab25c386a39f2a483fc15
     "typeorm": "^0.2.41"
   },
   "devDependencies": {

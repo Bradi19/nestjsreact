@@ -5,6 +5,8 @@ import { ContentComponent } from './content/content.component';
 import { LoginComponent } from './login/login.component';
 import { PageNotFoundComponentComponent } from './page-not-found-component/page-not-found-component.component';
 import { AuthsGuard } from './auths.guard';
+import {TranslateService} from '@ngx-translate/core';
+
 const routes: Routes = [
   { path: '', component: MainComponent },
   { path: 'login', component: LoginComponent },
@@ -16,4 +18,6 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+  constructor(public translate: TranslateService){}
+ }
