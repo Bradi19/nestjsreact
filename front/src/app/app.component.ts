@@ -11,7 +11,8 @@ export class AppComponent {
   id: number | undefined;
   private subscription: Subscription;
   constructor(private activateRoute: ActivatedRoute){
-
+      
       this.subscription = activateRoute.params.subscribe(params=>this.id=params['id']);
+
   }
 }
